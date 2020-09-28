@@ -73,13 +73,13 @@ if __name__ == "__main__" :
     #
     incoming_message_handler = MessageHandler(
         incoming_message_f,
-        filters=filters.command(["leech"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["leech@uptog69_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(incoming_message_handler)
     #
     incoming_gdrive_message_handler = MessageHandler(
         incoming_gdrive_message_f,
-        filters=filters.command(["gleech"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["gleech@uptog69_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(incoming_gdrive_message_handler)
     #
@@ -91,13 +91,13 @@ if __name__ == "__main__" :
     #
     incoming_purge_message_handler = MessageHandler(
         incoming_purge_message_f,
-        filters=filters.command(["purge"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["purge@uptog69_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(incoming_purge_message_handler)
     #
     incoming_clone_handler = MessageHandler(
         g_clonee,
-        filters=filters.command(["gclone"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["gclone@uptog69_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(incoming_clone_handler)
     #
@@ -109,57 +109,57 @@ if __name__ == "__main__" :
     #
     incoming_g_clear_handler = MessageHandler(
         g_clearme,
-        filters=filters.command(["renewme"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["renewme@uptog69_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(incoming_g_clear_handler)
     #
     incoming_youtube_dl_handler = MessageHandler(
         incoming_youtube_dl_f,
-        filters=filters.command(["ytdl"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["ytdl@uptog69_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(incoming_youtube_dl_handler)
     #
     incoming_youtube_playlist_dl_handler = MessageHandler(
         g_yt_playlist,
-        filters=filters.command(["pytdl"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["pytdl@uptog69_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(incoming_youtube_playlist_dl_handler)
     #
     status_message_handler = MessageHandler(
         status_message_f,
-        filters=filters.command(["status"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["status@uptog69_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(status_message_handler)
     #
     cancel_message_handler = MessageHandler(
         cancel_message_f,
-        filters=filters.command(["cancel"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["cancel@uptog69_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(cancel_message_handler)
     #
     exec_message_handler = MessageHandler(
         exec_message_f,
-        filters=filters.command(["exec"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["exec@uptog69_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(exec_message_handler)
     #
     '''
     eval_message_handler = MessageHandler(
         eval_message_f,
-        filters=filters.command(["eval"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["eval@uptog69_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(eval_message_handler)
     '''
     #
     rename_message_handler = MessageHandler(
         rename_message_f,
-        filters=filters.command(["rename"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["rename@uptog69_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(rename_message_handler)
     #
     upload_document_handler = MessageHandler(
         upload_document_f,
-        filters=filters.command(["upload"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["upload@uptog69_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(upload_document_handler)
     #
@@ -171,7 +171,7 @@ if __name__ == "__main__" :
     #
     help_text_handler = MessageHandler(
         help_message_f,
-        filters=filters.command(["help"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["help@uptog69_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(help_text_handler)
     #
@@ -194,13 +194,13 @@ if __name__ == "__main__" :
     #
     save_thumb_nail_handler = MessageHandler(
         save_thumb_nail,
-        filters=filters.command(["savethumbnail"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["savethumbnail@uptog69_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(save_thumb_nail_handler)
     #
     clear_thumb_nail_handler = MessageHandler(
         clear_thumb_nail,
-        filters=filters.command(["clearthumbnail"]) & filters.chat(chats=AUTH_CHANNEL)
+        filters=filters.command(["clearthumbnail@uptog69_bot"]) & filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(clear_thumb_nail_handler)
     #
